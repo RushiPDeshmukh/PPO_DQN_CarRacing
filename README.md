@@ -13,6 +13,7 @@ pip install swig
 conda install -c anaconda swig
 
 #### Install box2d
+
 pip install -e ".box2d" 
 
 # DQN
@@ -35,3 +36,5 @@ python3 PPO.py
 To test the trained file with the pretrained weights
 
 python3 test_car.py
+
+![CarRacing](https://user-images.githubusercontent.com/98420717/191381625-59154b57-cbc9-4af3-b393-c00a8aabd4a8.gif)
